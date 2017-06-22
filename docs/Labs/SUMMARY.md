@@ -12,5 +12,6 @@
 * [Lab 5 - Using Developer Workbench](lab5-usingdeveloperworkbench.md)
 * [Lab 6 - Starting the Client](lab-6-starting-the-client.md)
 * [Cheat Sheet](cheat-sheet.md)
-* [Extra Materials](scrappages.md)
+
+
 
