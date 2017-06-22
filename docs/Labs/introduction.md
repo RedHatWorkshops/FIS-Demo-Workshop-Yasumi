@@ -1,6 +1,6 @@
 # Yasumi Introduction
 
-![](/assets/wood-yasumi.png)
+![](/docs/assets/wood-yasumi.png)
 
 This section is provided in order to give some background information on how the initial program started. As this program is combining high processing requirements \(calculations\) in a recursive pattern, we thought it was a good candidate to look at the possible scaling options.
 
