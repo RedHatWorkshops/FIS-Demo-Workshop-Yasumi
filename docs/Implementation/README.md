@@ -25,13 +25,17 @@ This environment will need the following items
 
 * Clone/Fork the repository using the browser or on the commandline:
 
-**git clone **[https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git](https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git)
+```
+git clone https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git
+```
 
 ---
 
 * Then modify the following file in the Implementation Directory:
 
-**configureCDK.sh**
+```
+Implementation/configureCDK.sh
+```
 
 ---
 
@@ -48,6 +52,7 @@ OCP_IP=192.168.2.71
 * Setup of a new project in the OCP environment
 
 * Adding the FIS images to the environment
+
 * Adding a default View Policy
 * Uploading the ConfigMaps that hold all environment variables into the project
 * When java/maven/repos are configured correctly on your system, it will deploy the pods in the environment.
@@ -80,12 +85,14 @@ In the cloned environment, open the file:
 
 **FISGuiScaleOut/src/main/resources/resources/block.properties**
 
-In this file, you will be able to insert the BROKERURL for your AMQ connection. Also make sure that the entry queue definition is the same as the definition in the YasumyPuzzleStarter setting.
+In this file, you will be able to insert the BROKERURL for your AMQ connection. Also make sure that the entry queue definition is the same as the definition in the AMQ definition in OpenShift.
+
+![](/docs/assets/amqocpexternaladdress.png)
 
 ```
 blocks.jms.username                = admin
 blocks.jms.password                = admin
-blocks.jms.url                    = tcp://localhost:61616
+blocks.jms.url                    = tcp://broker-amq-tcp-yasumi.shift.pc2017.local:30616
 blocks.jms.destination            = qa.test.yasumi.start
 ```
 
