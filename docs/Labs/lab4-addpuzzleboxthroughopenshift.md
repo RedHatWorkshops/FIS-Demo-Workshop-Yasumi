@@ -29,7 +29,7 @@ Username: **openshift-dev
 
 ## Overview Status
 
-The Overview window should be reflecting the following situation where the AMQ Pod and the puzzlestarter are running.![](/assets/ocpboxoverview.png)
+The Overview window should be reflecting the following situation where the AMQ Pod and the puzzlestarter are running.![](/docs/assets/ocpboxoverview.png)
 
 ---
 
@@ -39,55 +39,55 @@ Perform the following steps:
 
 * Select the Add to project link which is located Top Center in the browser window
 * Select the Java Language
-* Select **s2i-karaf2-camel-log**![](/assets/ocpboxcamelloginit.png)
+* Select **s2i-karaf2-camel-log**![](/docs/assets/ocpboxcamelloginit.png)
 
 name: **puzzlebox                      
-**Git URL: [https://github.com/tdeborge/FIS-Workshop-Yasumi.git](https://github.com/tdeborge/FIS-Workshop-Yasumi.git)  
+**Git URL: [https://github.com/tdeborge/FIS-Workshop-Yasumi.git](https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git)  
 Git Reference: **master**  
 Service Name: **puzzlebox**  
 Maven Build Directory:
 
-![](/assets/ocpboxkarafparameters1.png)
+![](/docs/assets/ocpboxkarafparameters1.png)
 
 #### LEAVE THE MAVEN BUILD DIRECTORY EMPTY!!!
 
 Provide the CPU and Memory Limits:
 
-![](/assets/ocpboxkaraflogrequirements.png)
+![](/docs/assets/ocpboxkaraflogrequirements.png)
 
-**Hit the Create Button**![](/assets/ocpboxcreated.png)
+**Hit the Create Button**![](/docs/assets/ocpboxcreated.png)
 
 ---
 
 ## Overview Window after Creation
 
-![](/assets/ocpblockguicreation.png)As you notice, there is no deployment going on ... The reason for this is that something did not work out correctly and we  will need to fix this.
+![](/docs/assets/ocpblockguicreation.png)As you notice, there is no deployment going on ... The reason for this is that something did not work out correctly and we  will need to fix this.
 
 ---
 
 ## Assembly Failed
 
-![](/assets/ocpboxassemblyfailed.png)in order to solve this issue, select the puzzlebox link and select the action to edit the build.
+![](/docs/assets/ocpboxassemblyfailed.png)in order to solve this issue, select the puzzlebox link and select the action to edit the build.
 
 In this window, select the **advanced options **and you will notice that the Context Dir field is empty. As we are building from a subdirectory, we can set it to the correct value here:
 
 Context Dir:** /Labs/Lab 4/Solution/PuzzleBox**
 
-![](/assets/ocpfixcontextdir.png)Once this change is in, select the save button on the bottom.
+![](/docs/assets/ocpfixcontextdir.png)Once this change is in, select the save button on the bottom.
 
-![](/assets/ocpboxstartbuild.png)
+![](/docs/assets/ocpboxstartbuild.png)
 
 Then select the **Start Build** option
 
 ---
 
-## Select View Log on Build![](/assets/ocpboxbuildlog.png)
+## Select View Log on Build![](/docs/assets/ocpboxbuildlog.png)
 
 ---
 
 ## Build Finished View
 
-![](/assets/ocpblockfinishedandfixed.png)
+![](/docs/assets/ocpblockfinishedandfixed.png)
 
 These steps have created a running pod that is connected to our AMQ Broker that is defined in the previously uploaded ConfigMap \(Yaml file\).
 
@@ -95,5 +95,5 @@ These steps have created a running pod that is connected to our AMQ Broker that 
 
 ## Conclusion
 
-In the deployment process we are missing a crucial field to provide the Context Directory. Once this is Fixed, the build works fine and the container is deployed.![](/assets/ocpboxpodrunning.png)
+In the deployment process we are missing a crucial field to provide the Context Directory. Once this is Fixed, the build works fine and the container is deployed.![](/docs/assets/ocpboxpodrunning.png)
 

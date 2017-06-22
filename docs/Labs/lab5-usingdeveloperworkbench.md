@@ -6,7 +6,7 @@ In this Lab, we will be starting the Developer Workbench and import an existing 
 
 Locate the JBoss Developer WorkBench and start it up.
 
-![](/assets/workbenchStartUp.png)
+![](/docs/assets/workbenchStartUp.png)
 
 ---
 
@@ -14,21 +14,21 @@ Locate the JBoss Developer WorkBench and start it up.
 
 When working with Fuse, it could be interesting to install the JBoss Fuse Development Stack \(is probably already done\)
 
-![](/assets/jbdevfusestack.png)
+![](/docs/assets/jbdevfusestack.png)
 
 ---
 
 ## Importing the Exercise
 
-![](/assets/jbodimportproject.png)
+![](/docs/assets/jbodimportproject.png)
 
 Import an existing Maven Project
 
-![](/assets/jbodimportyasumiexercise.png)
+![](/docs/assets/jbodimportyasumiexercise.png)
 
 Import the Exercise directory in Lab 5.
 
-![](/assets/jbodprojectimportview.png)
+![](/docs/assets/jbodprojectimportview.png)
 
 As a result the project is imported.
 
@@ -38,7 +38,7 @@ As a result the project is imported.
 
 From the Menu bar, select the **Window - Show view - Other** option:
 
-![](/assets/jbodshowviewother.png)
+![](/docs/assets/jbodshowviewother.png)
 
 In the filter box, filter on open and select the OpenShift Explorer.
 
@@ -48,7 +48,7 @@ In the filter box, filter on open and select the OpenShift Explorer.
 
 Locate the Explorer View and either select a new connection wizard or select the option to **Sign in to OpenShift**
 
-![](/assets/jbodopenshiftviewlogin.png)
+![](/docs/assets/jbodopenshiftviewlogin.png)
 
 ---
 
@@ -56,13 +56,13 @@ Locate the Explorer View and either select a new connection wizard or select the
 
 Once you establish the connection, you get the following:
 
-![](/assets/jbodopenshiftviewresult.png)By right-clicking on the different components you can now see how you can easily edit configurations, and do basic operations on the OpenShift Instance from within the Developer Workbench.
+![](/docs/assets/jbodopenshiftviewresult.png)By right-clicking on the different components you can now see how you can easily edit configurations, and do basic operations on the OpenShift Instance from within the Developer Workbench.
 
 ---
 
 ### Developer Workbench Possibilities
 
-![](/assets/jbodocptoolingopenshift.png)
+![](/docs/assets/jbodocptoolingopenshift.png)
 
 Using the tooling, you can:
 
@@ -73,7 +73,7 @@ Using the tooling, you can:
 
 Other options you will be able to use are related to:
 
-![](/assets/jbodocptoolingview2.png)
+![](/docs/assets/jbodocptoolingview2.png)
 
 * Scaling the pod instances
 * Looking at pod log contents
@@ -94,11 +94,11 @@ When the Fuse workbench plugins are installed, you have a visual editor to manip
 
 Open the file: PuzzleCalculator/src/main/resources/OSGI-INF/blueprint/FuseYasumiPuzzleBoxCalculator.xml
 
-![](/assets/jbodocpcalcopenproject.png)
+![](/docs/assets/jbodocpcalcopenproject.png)
 
 When in Design mode, the canvas is showing the following:
 
-![](/assets/jbodocpcanvassimple.png)
+![](/docs/assets/jbodocpcanvassimple.png)
 
 Next, go into the Source view and uncomment the **BoxProcessor** Route
 
@@ -114,7 +114,7 @@ The file /PuzzleCalculator/src/main/resources/assembly/etc/com.rhworkshop.msa.ya
 
 ## Deployment Yaml
 
-![](/assets/jbodocpdeploymentyaml.png)
+![](/docs/assets/jbodocpdeploymentyaml.png)
 
 The deployment yaml is the place where we are able to modify the way our deployment will be pushed out. please uncomment the lines in the file: /PuzzleCalculator/src/main/fabric8/deployment.yml
 
@@ -128,7 +128,7 @@ The deployment yaml is the place where we are able to modify the way our deploym
 
 /PuzzleCalculator/src/main/fabric8/yasumipuzzleboxcalculator.yaml
 
-![](/assets/jbodocpyamlcalculator.png)
+![](/docs/assets/jbodocpyamlcalculator.png)
 
 Uncomment the lines in this file to:
 
@@ -144,11 +144,11 @@ Next step is to build a local version using the Developer Workbench. This is pro
 
 Right-Click the Project, select Run-As then select the Run As Maven Build ...
 
-![](/assets/jbodsocprunasmvnbuild.png)
+![](/docs/assets/jbodsocprunasmvnbuild.png)
 
 In the dialog that follows:
 
-![](/assets/jbodsocpcleaninstall.png)
+![](/docs/assets/jbodsocpcleaninstall.png)
 
 name: **PuzzleCalculator Local**  
 Goals: **clean install**
@@ -174,9 +174,9 @@ There is also the script that will perform the same execution ... however, the s
 
 After the deployment, you will find the following situation in your OpenShift View:
 
-![](/assets/jbodsocpfinaldeployment.png)
+![](/docs/assets/jbodsocpfinaldeployment.png)
 
 Which is mirroring the situation in the Overview Browser Window:
 
-![](/assets/ocpdeployumentoverview.png)
+![](/docs/assets/ocpdeployumentoverview.png)
 

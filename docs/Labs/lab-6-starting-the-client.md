@@ -15,7 +15,7 @@ Go to the Github clone and perform the following:
 
   * Locate the property:  
     **blocks.jms.url **and set its value to your exposed Broker.  
-    ![](/assets/exposedbrokeronamq.png)This is the hostname on the top-right of the YASUMI AMQ pane. Replace the http with **tcp** and add port **30616 **to it. The URL will look something like: **tcp://broker-amq-tcp-yasumi.shift.pc2017.local:30616**
+    ![](/docs/assets/exposedbrokeronamq.png)This is the hostname on the top-right of the YASUMI AMQ pane. Replace the http with **tcp** and add port **30616 **to it. The URL will look something like: **tcp://broker-amq-tcp-yasumi.shift.pc2017.local:30616**
 
   * From the Project Directory run: **mvn clean install**
 
@@ -27,7 +27,7 @@ Go to the Github clone and perform the following:
   **java -jar target/FISGuiScaleout-1.0.0-SNAPSHOT-jar-with-dependencies.jar**
 
 * Next the application should come up:  
-  ![](/assets/initialGUI.png)
+  ![](/docs/assets/initialGUI.png)
 
 * Then select the **New Interactive** button to start the puzzle
 

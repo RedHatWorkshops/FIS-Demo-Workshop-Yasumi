@@ -31,7 +31,7 @@ groupId: com.rhworkshop.msa
 artifactId: PuzzleStarter      
 version: 1.0.0-SNAPSHOT      
 package: com.rhworkshop.msa      
-Y: : **``Y\`\*\*
+Y: :`Y`
 
 ---
 

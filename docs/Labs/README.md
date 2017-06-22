@@ -70,7 +70,7 @@ The complete Workshop is located at:
 
 You can get this environment with the following command:
 
-**git clone **[https://github.com/tdeborge/FIS-Workshop-Yasumi.git](https://github.com/tdeborge/FIS-Workshop-Yasumi.git)** &lt;possible directory name&gt;**
+**git clone **[https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git](https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git)** &lt;possible directory name&gt;**
 
 Once you have cloned the repository, you are set to start the Workshop.
 

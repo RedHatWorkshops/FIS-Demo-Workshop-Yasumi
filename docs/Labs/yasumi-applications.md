@@ -4,9 +4,9 @@
 
 We have included 2 Java Applications in the Cloned repository. These are located under the **GUIMonolithic** and **GUIScaleUp** directories.
 
-![](/assets/mirrorSolutions.png)
+![](/docs/assets/mirrorSolutions.png)
 
-This will show the following growth paths![](/assets/ScalingOptions.png)
+This will show the following growth paths![](/docs/assets/ScalingOptions.png)
 
 ### GUIMonolithic - Vertical Scaling
 
@@ -20,7 +20,7 @@ The GUIScaleUp application enhanced the initial Monolithic approach and is using
 
 This approach is showing the **HORIZONTAL Scaling** where more CPU's will get the job done in a better time. This application is finishing the job in around 25 seconds on the i7.
 
-### FIS-Gui - Scale Out![](/assets/yasumiScaleOut.png)
+### FIS-Gui - Scale Out![](/docs/assets/yasumiScaleOut.png)
 
 The last application that we will be building during the workshop, will allow us to Scale Out and make use of machine resources that are not local to the application. We will be using AMQ as messaging broker in order to request and receive the puzzle solutions. We will further split our application MSA over 3 different responsibilities and each will be deployed in its own POD so they can be scaled independently.
 
