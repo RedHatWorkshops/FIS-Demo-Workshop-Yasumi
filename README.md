@@ -1,6 +1,6 @@
 # Welcome to the Yasumi Puzzler Workshop
 
-This project has 2 major parts in the repository.
+This project has 2 major parts in the repository. The reason for this is that it allows people to quickly setup a complete demo or have the option to go through it step by step in order to get a better understanding of the configuration.
 
 ## Implementation
 
