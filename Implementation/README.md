@@ -18,8 +18,8 @@ I then took the program and created some Fuse Services around it and ported that
 This environment will need the following items
 
 * CDK 2.4 (this is what is tested ... you can see how it works on your OCP environment)
-* An installation of Fuse/AMQ. The Message Broker is used to glue all services together and is not included in this project
-* Make the Broker available on 0.0.0.0:[port#]
+* CDK 3.0 is also tested now and works. This release is based on the minishift project
+* AMQ will be installed in the OpenShift Environment and is automatically configured.
 
 ## Getting Started
 
