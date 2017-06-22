@@ -8,6 +8,8 @@ The first part is the complete solution that you can find in the repository unde
 
 All needed information can be found in the documentation that comes along:
 
+[Implementation](/docs/Implementation/README.md "Implementation Documentation")
+
 ## Labs
 
 
