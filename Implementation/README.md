@@ -25,7 +25,7 @@ This environment will need the following items
 
 * Clone/Fork the repository using the browser or on the commandline:
 
-**git clone https://github.com/tdeborge/FIS-Yasumi.git**
+**git clone https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git**
 
 ---
 
