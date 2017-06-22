@@ -29,7 +29,7 @@ This environment will need the following items
 
 ---
 
-* Then modify the following file:
+* Then modify the following file in the Implementation Directory:
 
 **configureCDK.sh**
 
