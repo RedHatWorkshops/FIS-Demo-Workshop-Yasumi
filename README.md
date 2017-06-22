@@ -27,5 +27,9 @@ The Labs allow you to create the whole implementation in a workshop style where 
 * [Lab 6 - Starting the Client](/docs/Labs/lab-6-starting-the-client.md)
 * [Cheat Sheet](/docs/Labs/cheat-sheet.md)
 
+## Contributions:
+
+As always, we welcome contributions or any other help. Please use the Fork/Pull Request mechanism to participate.
+
 
 
