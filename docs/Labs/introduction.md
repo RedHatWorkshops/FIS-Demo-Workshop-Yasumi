@@ -10,11 +10,11 @@ The Yasumi Puzzle \(or pentomino\) is a game in which different kinds of blocks 
 
 The picture below shows you all the possible blocks of the puzzle:
 
-![](/assets/yasumiBlocks.png)
+![](/docs/assets/yasumiBlocks.png)
 
 The picture below shows you one of the solutions:
 
-![](/assets/yasumiSolution.png)
+![](/docs/assets/yasumiSolution.png)
 
 ## Help on the Internet
 
@@ -41,5 +41,5 @@ When looking at the provided optimization and solution, I added my own \(very sm
 
 Applying this last technique brought the solution time of my Java program to under 20 minutes as I only have to calculate 1/4th of the possible solutions.
 
-![](/assets/mirrorSolutions.png)
+![](/docs/assets/mirrorSolutions.png)
 
