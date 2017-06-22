@@ -35,7 +35,7 @@ Y: :`Y`
 
 ---
 
-After a successful build, you will have now a project created called PuzzleStarter.![](/assets/puzzlestartercreated.png)
+After a successful build, you will have now a project created called PuzzleStarter.![](/docs/assets/puzzlestartercreated.png)
 
 ---
 
