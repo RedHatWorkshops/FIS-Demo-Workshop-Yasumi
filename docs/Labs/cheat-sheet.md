@@ -8,7 +8,7 @@ Here you find all the needed commands to make the workshop deploy, leaving step 
 
 * cd to your home directory
   * **`cd`**
-* **`git clone `**[`https://github.com/tdeborge/FIS-Workshop-Yasumi.git`](https://github.com/tdeborge/FIS-Workshop-Yasumi.git)**` FISLAB`**
+* `git clonehttps://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.gitFISLAB`
 
 * **`cd FISLAB/Labs`**
 
@@ -35,7 +35,7 @@ Here you find all the needed commands to make the workshop deploy, leaving step 
 
 Remember that the Puzzle Client is running outside the 'OCP Cluster' and as such needs external access. This is provided to the broker and can be found on the GUI:
 
-![](/assets/amqocpexternaladdress.png)
+![](/docs/assets/amqocpexternaladdress.png)
 
 You will need to replace the **http** with **tcp** and add the port number **:30616**
 
