@@ -16,7 +16,7 @@ In order to build this application \(this is similar for GUIScaleUp\):
 
 * Open a command line
 * Go into the application you want to run:
-   **`cd <git clone location>/FIS-Workshop-Yasumi/Labs/Lab 2/Solution/GUIMonolithic`**
+   **`cd <git clone location>/Labs/Lab 2/Solution/GUIMonolithic`**
 * run the maven command: 
   **`mvn clean package`**
 
@@ -28,7 +28,7 @@ In the project directory:
   **`cd target`**
 * execute the java command:   
   **`java -jar GUIMonolithic-1.0.0-SNAPSHOT-jar-with-dependencies.jar`**  
-  ![](/assets/blankGui.png)
+  ![](/docs/assets/blankGui.png)
 
 * Click on the **New Interactive** Button to start the puzzler.
 

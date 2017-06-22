@@ -11,7 +11,7 @@ From the **git URL, **clone the environment to your local drive.
 ```
 #Go to your home directory
 cd
-git clone https://github.com/tdeborge/FIS-Workshop-Yasumi.git FISLAB
+git clone https://github.com/RedHatWorkshops/FIS-Demo-Workshop-Yasumi.git FISLAB
 cd FISLAB
 ```
 

@@ -214,11 +214,11 @@ This approach will speedup the test deployments. The container image is build lo
 
 Once you have successfully executed these steps, you can use the OpenShift Console to see the following:
 
-On the Overview Page, the PuzzleStarter Pod is added:![](/assets/puzzlestarterpod.png)
+On the Overview Page, the PuzzleStarter Pod is added:![](/docs/assets/puzzlestarterpod.png)
 
-Selecting the pod \(by clicking in the circle\) you can then see the details:![](/assets/PuzzleStarterDetails.png)
+Selecting the pod \(by clicking in the circle\) you can then see the details:![](/docs/assets/PuzzleStarterDetails.png)
 
 On this screen you can then select the **Open Java Console** which will open the Jolokia overview where you can find all local information on the Camel Route\(s\).
 
-![](/assets/puzzlestarterCamelRoutes.png)
+![](/docs/assets/puzzlestarterCamelRoutes.png)
 

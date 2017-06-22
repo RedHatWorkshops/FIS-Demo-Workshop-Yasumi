@@ -31,7 +31,7 @@ Upon successful execution of the script, you will find the OpenShift Console to 
 
 * In the Overview of the Yasumi Puzzler project you can see the AMQ Broker Pod
 
-![](/assets/AMQBrokerPod.png)
+![](/docs/assets/AMQBrokerPod.png)
 
 # Highlights
 
